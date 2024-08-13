@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+
+:root {
+  --Bg-color:black;
+  --main-color:#CE0014;
+  --nav-color:transparent;
+  --text-color:#fff;
+  --text-color2:#b3b4b6;
+}
+
+html {
+    font-size: 72.5%;
+    /* overflow: hidden; */
+ }
+
+ /* Navbar */
+
+ .Header {
+  position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   padding: 2rem 5%;
+   background: transparent;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   z-index: 100;
+   background: var(--Bg-color);
+}
+.Header h1 {
+  font-size: 2rem;
+  color: var(--main-color);
+}
+
+.Header nav {
+  position: relative; 
+}
+
+.Header nav a {
+  font-size: 1.3rem;
+   color: var(--text-color2);
+   font-weight: 500;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-left: 3.5rem;
+   text-decoration: none;
+}
+
+/* Home section */
+
+.Home {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 100vh;
+  padding-top: 8rem;
+  overflow: hidden;
+  /* padding: 12rem 5% 2rem; */
+  background: var(--Bg-color);
+}
+
+.container-home {
+  position: relative;
+  min-width: 100%;
+}
+
+.container-home h1 {
+  font-size: 6rem;
+  /* font-weight: 400; */
+  padding: 7rem 5% 2rem; 
+
+  color: var(--text-color);
+}
+
+.container-home p {
+  color: var(--text-color);
+  padding: 0 5% 2rem;
+  font-size: 1.5rem;
+}
+
+.container-home2 {
+  position: relative;
+}
+
+.container-home2 img {
+  position: absolute;
+  max-width: 68rem;
+  right: 5rem;
+  padding: 1rem 5% 2rem;
+}
+
+.btn {
+  padding: 3rem 5% 2rem;
+}
+
+.btn button {
+  width: 10rem;
+  height: 6vh;
+  border-radius: 20px;
+  color: var(--text-color);
+  background: var(--main-color);
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background: var(--text-color2);
+  color: var(--main-color);
+}
+
+.location {
+  position: relative;
+  align-items: center;
+  text-align: center;
+  padding: 10rem 5% -20rem;
+  
+}
+
+.location ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--text-color);
+  right: 25rem;
+  
+}
+
+.location ul li {
+  font-size: 1.5rem;
+  margin: 0 13rem ;
+}
+
+div h1 {
+  color: purple;
+}
+label {
+  color: var(--text-color);
+}
+
+
+
+
+
+
+
+
